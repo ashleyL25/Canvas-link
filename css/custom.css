@@ -1,0 +1,36 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+----------------------------------------------------------------- */
+.gold {
+    color: #B8A379;
+    font-weight: bold;
+    font-size: 13x;
+}
+
+.reply-gold {
+    color: #6F6F6F!important;
+    font-size: 13px!important;
+    font-style: italic;
+    font-weight: thin;
+}
+
+.left-text {
+    text-align: left!important;
+    padding-left: 1rem;
+}
+
+.reply-text {
+    color: #6F6F6F!important;
+    font-size: 12px;
+    font-weight: thin;
+}
+
+.line-texter {
+    padding-top: 1rem!important;
+    padding-bottom: 0!important;
+    margin: 0!important;
+    border-top: 0.5px solid #CFCFCF;
+}
