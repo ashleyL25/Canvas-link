@@ -2501,9 +2501,9 @@ website:   	http://www.themepunch.com
 }
 
 .revtp-searchform input[type="text"],
-.revtp-searchform input[type="email"],
-.revtp-form input[type="text"],
-.revtp-form input[type="email"] {
+.revtp-searchform input[type="email"],
+.revtp-form input[type="text"],
+.revtp-form input[type="email"] {
     font-family: "Arial", sans-serif;
     font-size: 15px;
     color: #000;
@@ -2523,7 +2523,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.BigBold-Title,
-.BigBold-Title {
+.BigBold-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 110px;
     line-height: 100px;
@@ -2541,7 +2541,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.BigBold-SubTitle,
-.BigBold-SubTitle {
+.BigBold-SubTitle {
     color: rgba(255, 255, 255, 0.50);
     font-size: 15px;
     line-height: 24px;
@@ -2560,7 +2560,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.BigBold-Button,
-.BigBold-Button {
+.BigBold-Button {
     color: rgba(255, 255, 255, 1.00);
     font-size: 13px;
     line-height: 13px;
@@ -2579,7 +2579,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.BigBold-Button:hover,
-.BigBold-Button:hover {
+.BigBold-Button:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -2590,7 +2590,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.FoodCarousel-Content,
-.FoodCarousel-Content {
+.FoodCarousel-Content {
     color: rgba(41, 46, 49, 1.00);
     font-size: 17px;
     line-height: 28px;
@@ -2617,8 +2617,8 @@ website:   	http://www.themepunch.com
     font-family: Raleway;
     padding: 15px 70px 15px 50px;
     text-decoration: none;
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 46%,rgba(222,198,153,0.6) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 46%,rgba(222,198,153,0.6) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 46%,rgba(222,198,153,0.6) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.2) 46%,rgba(222,198,153,0.6) 100%);
     border: 1px solid #B8A379;
     border-radius: 0px 0px 0px 0px;
     text-align: left;
@@ -2627,20 +2627,18 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.FoodCarousel-Button:hover,
-.FoodCarousel-Button:hover {
-    color: #B8A379;
+.FoodCarousel-Button:hover {
+    color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 46%,rgba(184,163,121,0.6) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,0.8) 46%,rgba(184,163,121,0.6) 100%);
-    border: 1px solid #B8A379;
+    background-color: rgba(41, 46, 49, 1.00);
+    border-color: rgba(41, 46, 49, 1.00);
     border-style: solid;
     border-width: 1px;
-    cursor: pointer;
     border-radius: 0px 0px 0px 0px;
 }
 
 .tp-caption.FoodCarousel-CloseButton,
-.FoodCarousel-CloseButton {
+.FoodCarousel-CloseButton {
     color: rgba(41, 46, 49, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -2659,7 +2657,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.FoodCarousel-CloseButton:hover,
-.FoodCarousel-CloseButton:hover {
+.FoodCarousel-CloseButton:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(41, 46, 49, 1.00);
@@ -2670,7 +2668,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Video-SubTitle,
-.Video-SubTitle {
+.Video-SubTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 12px;
     line-height: 12px;
@@ -2689,7 +2687,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Video-Title,
-.Video-Title {
+.Video-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -2707,7 +2705,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Travel-BigCaption,
-.Travel-BigCaption {
+.Travel-BigCaption {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -2725,7 +2723,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Travel-SmallCaption,
-.Travel-SmallCaption {
+.Travel-SmallCaption {
     color: rgba(255, 255, 255, 1.00);
     font-size: 25px;
     line-height: 30px;
@@ -2743,7 +2741,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Travel-CallToAction,
-.Travel-CallToAction {
+.Travel-CallToAction {
     color: rgba(255, 255, 255, 1.00);
     font-size: 25px;
     line-height: 25px;
@@ -2762,7 +2760,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Travel-CallToAction:hover,
-.Travel-CallToAction:hover {
+.Travel-CallToAction:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.15);
@@ -2773,7 +2771,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RotatingWords-TitleWhite,
-.RotatingWords-TitleWhite {
+.RotatingWords-TitleWhite {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -2791,7 +2789,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RotatingWords-Button,
-.RotatingWords-Button {
+.RotatingWords-Button {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -2810,7 +2808,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RotatingWords-Button:hover,
-.RotatingWords-Button:hover {
+.RotatingWords-Button:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -2821,7 +2819,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RotatingWords-SmallText,
-.RotatingWords-SmallText {
+.RotatingWords-SmallText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 14px;
     line-height: 20px;
@@ -2840,7 +2838,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-SmallTitle,
-.ContentZoom-SmallTitle {
+.ContentZoom-SmallTitle {
     color: rgba(41, 46, 49, 1.00);
     font-size: 33px;
     line-height: 45px;
@@ -2858,7 +2856,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-SmallSubtitle,
-.ContentZoom-SmallSubtitle {
+.ContentZoom-SmallSubtitle {
     color: rgba(111, 124, 130, 1.00);
     font-size: 16px;
     line-height: 24px;
@@ -2876,7 +2874,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-SmallIcon,
-.ContentZoom-SmallIcon {
+.ContentZoom-SmallIcon {
     color: rgba(41, 46, 49, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -2894,7 +2892,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-SmallIcon:hover,
-.ContentZoom-SmallIcon:hover {
+.ContentZoom-SmallIcon:hover {
     color: rgba(111, 124, 130, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -2905,7 +2903,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-DetailTitle,
-.ContentZoom-DetailTitle {
+.ContentZoom-DetailTitle {
     color: rgba(41, 46, 49, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -2923,7 +2921,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-DetailSubTitle,
-.ContentZoom-DetailSubTitle {
+.ContentZoom-DetailSubTitle {
     color: rgba(111, 124, 130, 1.00);
     font-size: 25px;
     line-height: 25px;
@@ -2941,7 +2939,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-DetailContent,
-.ContentZoom-DetailContent {
+.ContentZoom-DetailContent {
     color: rgba(111, 124, 130, 1.00);
     font-size: 17px;
     line-height: 28px;
@@ -2959,7 +2957,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-Button,
-.ContentZoom-Button {
+.ContentZoom-Button {
     color: rgba(41, 46, 49, 1.00);
     font-size: 13px;
     line-height: 13px;
@@ -2978,7 +2976,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-Button:hover,
-.ContentZoom-Button:hover {
+.ContentZoom-Button:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(41, 46, 49, 1.00);
@@ -2989,7 +2987,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-ButtonClose,
-.ContentZoom-ButtonClose {
+.ContentZoom-ButtonClose {
     color: rgba(41, 46, 49, 1.00);
     font-size: 13px;
     line-height: 13px;
@@ -3008,7 +3006,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.ContentZoom-ButtonClose:hover,
-.ContentZoom-ButtonClose:hover {
+.ContentZoom-ButtonClose:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(41, 46, 49, 1.00);
@@ -3019,7 +3017,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Newspaper-Title,
-.Newspaper-Title {
+.Newspaper-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 55px;
@@ -3037,7 +3035,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Newspaper-Subtitle,
-.Newspaper-Subtitle {
+.Newspaper-Subtitle {
     color: rgba(168, 216, 238, 1.00);
     font-size: 15px;
     line-height: 20px;
@@ -3055,7 +3053,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Newspaper-Button,
-.Newspaper-Button {
+.Newspaper-Button {
     color: rgba(255, 255, 255, 1.00);
     font-size: 13px;
     line-height: 17px;
@@ -3074,7 +3072,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Newspaper-Button:hover,
-.Newspaper-Button:hover {
+.Newspaper-Button:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -3085,7 +3083,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.rtwhitemedium,
-.rtwhitemedium {
+.rtwhitemedium {
     font-size: 22px;
     line-height: 26px;
     color: rgb(255, 255, 255);
@@ -3099,15 +3097,15 @@ website:   	http://www.themepunch.com
 
 @media only screen and (max-width: 767px) {
     .revtp-searchform input[type="text"],
-    	.revtp-searchform input[type="email"],
-    	.revtp-form input[type="text"],
-    	.revtp-form input[type="email"] {
+    	.revtp-searchform input[type="email"],
+    	.revtp-form input[type="text"],
+    	.revtp-form input[type="email"] {
         width: 200px !important;
     }
 }
 
 .revtp-searchform input[type="submit"],
-.revtp-form input[type="submit"] {
+.revtp-form input[type="submit"] {
     font-family: "Arial", sans-serif;
     line-height: 46px;
     letter-spacing: 1px;
@@ -3122,7 +3120,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+    .tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -3132,7 +3130,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Title,
-.Concept-Title {
+    .Concept-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -3151,7 +3149,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-SubTitle,
-.Concept-SubTitle {
+    .Concept-SubTitle {
     color: rgba(255, 255, 255, 0.65);
     font-size: 25px;
     line-height: 25px;
@@ -3169,7 +3167,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Content,
-.Concept-Content {
+    .Concept-Content {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 30px;
@@ -3187,7 +3185,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-MoreBtn,
-.Concept-MoreBtn {
+    .Concept-MoreBtn {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -3207,7 +3205,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-MoreBtn:hover,
-.Concept-MoreBtn:hover {
+    .Concept-MoreBtn:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.15);
@@ -3218,7 +3216,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-LessBtn,
-.Concept-LessBtn {
+    .Concept-LessBtn {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -3238,7 +3236,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-LessBtn:hover,
-.Concept-LessBtn:hover {
+    .Concept-LessBtn:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -3249,7 +3247,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-SubTitle-Dark,
-.Concept-SubTitle-Dark {
+    .Concept-SubTitle-Dark {
     color: rgba(0, 0, 0, 0.65);
     font-size: 25px;
     line-height: 25px;
@@ -3267,7 +3265,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Title-Dark,
-.Concept-Title-Dark {
+    .Concept-Title-Dark {
     color: rgba(0, 0, 0, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -3286,7 +3284,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-MoreBtn-Dark,
-.Concept-MoreBtn-Dark {
+    .Concept-MoreBtn-Dark {
     color: rgba(0, 0, 0, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -3306,7 +3304,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-MoreBtn-Dark:hover,
-.Concept-MoreBtn-Dark:hover {
+    .Concept-MoreBtn-Dark:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 1.00);
@@ -3317,7 +3315,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Content-Dark,
-.Concept-Content-Dark {
+    .Concept-Content-Dark {
     color: rgba(0, 0, 0, 1.00);
     font-size: 20px;
     line-height: 30px;
@@ -3335,7 +3333,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Notice,
-.Concept-Notice {
+    .Concept-Notice {
     color: rgba(255, 255, 255, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -3354,7 +3352,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Content a,
-.tp-caption.Concept-Content a:visited {
+    .tp-caption.Concept-Content a:visited {
     color: #fff !important;
     border-bottom: 1px solid #fff !important;
     font-weight: 700 !important;
@@ -3365,7 +3363,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Concept-Content-Dark a,
-.tp-caption.Concept-Content-Dark a:visited {
+    .tp-caption.Concept-Content-Dark a:visited {
     color: #000 !important;
     border-bottom: 1px solid #000 !important;
     font-weight: 700 !important;
@@ -3376,7 +3374,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+    .tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -3386,7 +3384,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Creative-Title,
-.Creative-Title {
+    .Creative-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -3404,7 +3402,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Creative-SubTitle,
-.Creative-SubTitle {
+    .Creative-SubTitle {
     color: rgba(205, 176, 131, 1.00);
     font-size: 14px;
     line-height: 14px;
@@ -3423,7 +3421,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Creative-Button,
-.Creative-Button {
+    .Creative-Button {
     color: rgba(205, 176, 131, 1.00);
     font-size: 13px;
     line-height: 13px;
@@ -3442,7 +3440,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Creative-Button:hover,
-.Creative-Button:hover {
+    .Creative-Button:hover {
     color: rgba(205, 176, 131, 1.00);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
@@ -3453,7 +3451,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.subcaption,
-.subcaption {
+    .subcaption {
     color: rgba(111, 124, 130, 1.00);
     font-size: 19px;
     line-height: 24px;
@@ -3472,7 +3470,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RedDot,
-.RedDot {
+    .RedDot {
     color: rgba(0, 0, 0, 1.00);
     font-weight: 400;
     font-style: normal;
@@ -3487,7 +3485,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.RedDot:hover,
-.RedDot:hover {
+    .RedDot:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.75);
@@ -3498,7 +3496,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.SlidingOverlays-Title,
-.SlidingOverlays-Title {
+    .SlidingOverlays-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -3516,7 +3514,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.SlidingOverlays-Title,
-.SlidingOverlays-Title {
+    .SlidingOverlays-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -3534,7 +3532,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-TitleLarge,
-.Woo-TitleLarge {
+    .Woo-TitleLarge {
     color: rgba(0, 0, 0, 1.00);
     font-size: 40px;
     line-height: 40px;
@@ -3552,7 +3550,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-Rating,
-.Woo-Rating {
+    .Woo-Rating {
     color: rgba(0, 0, 0, 1.00);
     font-size: 14px;
     line-height: 30px;
@@ -3570,7 +3568,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-SubTitle,
-.Woo-SubTitle {
+    .Woo-SubTitle {
     color: rgba(0, 0, 0, 1.00);
     font-size: 18px;
     line-height: 18px;
@@ -3589,7 +3587,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-PriceLarge,
-.Woo-PriceLarge {
+    .Woo-PriceLarge {
     color: rgba(0, 0, 0, 1.00);
     font-size: 60px;
     line-height: 60px;
@@ -3607,7 +3605,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-ProductInfo,
-.Woo-ProductInfo {
+    .Woo-ProductInfo {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -3625,7 +3623,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-ProductInfo:hover,
-.Woo-ProductInfo:hover {
+    .Woo-ProductInfo:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(243, 168, 71, 1.00);
@@ -3636,7 +3634,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-AddToCart,
-.Woo-AddToCart {
+    .Woo-AddToCart {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -3654,7 +3652,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-AddToCart:hover,
-.Woo-AddToCart:hover {
+    .Woo-AddToCart:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(243, 168, 71, 1.00);
@@ -3665,7 +3663,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-TitleLarge,
-.Woo-TitleLarge {
+    .Woo-TitleLarge {
     color: rgba(0, 0, 0, 1.00);
     font-size: 40px;
     line-height: 40px;
@@ -3683,7 +3681,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-SubTitle,
-.Woo-SubTitle {
+    .Woo-SubTitle {
     color: rgba(0, 0, 0, 1.00);
     font-size: 18px;
     line-height: 18px;
@@ -3702,7 +3700,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-PriceLarge,
-.Woo-PriceLarge {
+    .Woo-PriceLarge {
     color: rgba(0, 0, 0, 1.00);
     font-size: 60px;
     line-height: 60px;
@@ -3720,7 +3718,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-ProductInfo,
-.Woo-ProductInfo {
+    .Woo-ProductInfo {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -3738,7 +3736,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-ProductInfo:hover,
-.Woo-ProductInfo:hover {
+    .Woo-ProductInfo:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(243, 168, 71, 1.00);
@@ -3749,7 +3747,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-AddToCart,
-.Woo-AddToCart {
+    .Woo-AddToCart {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -3767,7 +3765,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Woo-AddToCart:hover,
-.Woo-AddToCart:hover {
+    .Woo-AddToCart:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(243, 168, 71, 1.00);
@@ -3778,7 +3776,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.FullScreen-Toggle,
-.FullScreen-Toggle {
+    .FullScreen-Toggle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -3798,7 +3796,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.FullScreen-Toggle:hover,
-.FullScreen-Toggle:hover {
+    .FullScreen-Toggle:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 1.00);
@@ -3809,7 +3807,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-Title,
-.Agency-Title {
+.Agency-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -3828,7 +3826,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-SubTitle,
-.Agency-SubTitle {
+.Agency-SubTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -3846,7 +3844,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-PlayBtn,
-.Agency-PlayBtn {
+.Agency-PlayBtn {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 71px;
@@ -3864,7 +3862,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-PlayBtn:hover,
-.Agency-PlayBtn:hover {
+.Agency-PlayBtn:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -3876,7 +3874,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-SmallText,
-.Agency-SmallText {
+.Agency-SmallText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 12px;
     line-height: 12px;
@@ -3895,7 +3893,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-Social,
-.Agency-Social {
+.Agency-Social {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 50px;
@@ -3913,7 +3911,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-Social:hover,
-.Agency-Social:hover {
+.Agency-Social:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(51, 51, 51, 1.00);
@@ -3925,7 +3923,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-CloseBtn,
-.Agency-CloseBtn {
+.Agency-CloseBtn {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -3943,7 +3941,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Agency-CloseBtn:hover,
-.Agency-CloseBtn:hover {
+.Agency-CloseBtn:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -3955,7 +3953,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-Title,
-.Dining-Title {
+.Dining-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -3974,7 +3972,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-SubTitle,
-.Dining-SubTitle {
+.Dining-SubTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -3992,7 +3990,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-BtnLight,
-.Dining-BtnLight {
+.Dining-BtnLight {
     color: rgba(255, 255, 255, 0.50);
     font-size: 15px;
     line-height: 15px;
@@ -4011,7 +4009,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-BtnLight:hover,
-.Dining-BtnLight:hover {
+.Dining-BtnLight:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
@@ -4022,7 +4020,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-Social,
-.Dining-Social {
+.Dining-Social {
     color: rgba(255, 255, 255, 1.00);
     font-size: 25px;
     line-height: 50px;
@@ -4040,7 +4038,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption.Dining-Social:hover,
-.Dining-Social:hover {
+.Dining-Social:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4052,7 +4050,7 @@ website:   	http://www.themepunch.com
 }
 
 tp-caption.Team-Thumb,
-.Team-Thumb {
+.Team-Thumb {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 22px;
@@ -4070,7 +4068,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Thumb:hover,
-.Team-Thumb:hover {
+.Team-Thumb:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4082,7 +4080,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Name,
-.Team-Name {
+.Team-Name {
     color: rgba(255, 255, 255, 1.00);
     font-size: 70px;
     line-height: 70px;
@@ -4100,7 +4098,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Position,
-.Team-Position {
+.Team-Position {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -4118,7 +4116,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Description,
-.Team-Description {
+.Team-Description {
     color: rgba(255, 255, 255, 1.00);
     font-size: 18px;
     line-height: 28px;
@@ -4136,7 +4134,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Social,
-.Team-Social {
+.Team-Social {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -4154,7 +4152,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Team-Social:hover,
-.Team-Social:hover {
+.Team-Social:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4166,7 +4164,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Play,
-.VideoControls-Play {
+.VideoControls-Play {
     color: rgba(0, 0, 0, 1.00);
     font-size: 50px;
     line-height: 120px;
@@ -4184,7 +4182,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Play:hover,
-.VideoControls-Play:hover {
+.VideoControls-Play:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -4196,7 +4194,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoPlayer-Title,
-.VideoPlayer-Title {
+.VideoPlayer-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 40px;
     line-height: 40px;
@@ -4215,7 +4213,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoPlayer-SubTitle,
-.VideoPlayer-SubTitle {
+.VideoPlayer-SubTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -4233,7 +4231,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoPlayer-Social,
-.VideoPlayer-Social {
+.VideoPlayer-Social {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -4251,7 +4249,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoPlayer-Social:hover,
-.VideoPlayer-Social:hover {
+.VideoPlayer-Social:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4263,7 +4261,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Mute,
-.VideoControls-Mute {
+.VideoControls-Mute {
     color: rgba(0, 0, 0, 1.00);
     font-size: 20px;
     line-height: 50px;
@@ -4281,7 +4279,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Mute:hover,
-.VideoControls-Mute:hover {
+.VideoControls-Mute:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -4293,7 +4291,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Pause,
-.VideoControls-Pause {
+.VideoControls-Pause {
     color: rgba(0, 0, 0, 1.00);
     font-size: 20px;
     line-height: 50px;
@@ -4311,7 +4309,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.VideoControls-Pause:hover,
-.VideoControls-Pause:hover {
+.VideoControls-Pause:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -4327,7 +4325,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-Title,
-.SleekLanding-Title {
+.SleekLanding-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 35px;
     line-height: 40px;
@@ -4347,7 +4345,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-ButtonBG,
-.SleekLanding-ButtonBG {
+.SleekLanding-ButtonBG {
     color: rgba(0, 0, 0, 1.00);
     font-weight: 700;
     font-style: normal;
@@ -4364,7 +4362,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-SmallTitle,
-.SleekLanding-SmallTitle {
+.SleekLanding-SmallTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 13px;
     line-height: 50px;
@@ -4384,7 +4382,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-BottomText,
-.SleekLanding-BottomText {
+.SleekLanding-BottomText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 15px;
     line-height: 24px;
@@ -4403,7 +4401,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-Social,
-.SleekLanding-Social {
+.SleekLanding-Social {
     color: rgba(255, 255, 255, 1.00);
     font-size: 22px;
     line-height: 30px;
@@ -4422,7 +4420,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.SleekLanding-Social:hover,
-.SleekLanding-Social:hover {
+.SleekLanding-Social:hover {
     color: rgba(0, 0, 0, 0.25);
     text-decoration: none;
     background-color: transparent;
@@ -4442,7 +4440,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.PostSlider-Category,
-.PostSlider-Category {
+.PostSlider-Category {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 15px;
@@ -4461,7 +4459,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.PostSlider-Title,
-.PostSlider-Title {
+.PostSlider-Title {
     color: rgba(0, 0, 0, 1.00);
     font-size: 40px;
     line-height: 40px;
@@ -4479,7 +4477,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.PostSlider-Content,
-.PostSlider-Content {
+.PostSlider-Content {
     color: rgba(119, 119, 119, 1.00);
     font-size: 15px;
     line-height: 23px;
@@ -4497,7 +4495,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.PostSlider-Button,
-.PostSlider-Button {
+.PostSlider-Button {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 40px;
@@ -4515,7 +4513,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.PostSlider-Button:hover,
-.PostSlider-Button:hover {
+.PostSlider-Button:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(238, 238, 238, 1.00);
@@ -4534,7 +4532,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.LandingPage-Title,
-.LandingPage-Title {
+.LandingPage-Title {
     color: rgba(255,
     255,
     255,
@@ -4556,7 +4554,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.LandingPage-SubTitle,
-.LandingPage-SubTitle {
+.LandingPage-SubTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 30px;
@@ -4574,7 +4572,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.LandingPage-Button,
-.LandingPage-Button {
+.LandingPage-Button {
     color: rgba(0, 0, 0, 1.00);
     font-size: 15px;
     line-height: 54px;
@@ -4593,7 +4591,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.LandingPage-Button:hover,
-.LandingPage-Button:hover {
+.LandingPage-Button:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -4605,7 +4603,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.App-Content a,
-.tp-caption.App-Content a:visited {
+.tp-caption.App-Content a:visited {
     color: #89124e !important;
     border-bottom: 1px solid transparent !important;
     font-weight: bold !important;
@@ -4616,7 +4614,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.RockBand-LogoText,
-.RockBand-LogoText {
+.RockBand-LogoText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 60px;
     line-height: 60px;
@@ -4635,7 +4633,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+.tp-caption.Twitter-Content a:visited {
     color: #fff !important;
     text-decoration: underline !important;
 }
@@ -4650,7 +4648,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-LogoText,
-.Agency-LogoText {
+.Agency-LogoText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 12px;
     line-height: 20px;
@@ -4670,7 +4668,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ComingSoon-Highlight,
-.ComingSoon-Highlight {
+.ComingSoon-Highlight {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 37px;
@@ -4689,7 +4687,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ComingSoon-Count,
-.ComingSoon-Count {
+.ComingSoon-Count {
     color: rgba(255, 255, 255, 1.00);
     font-size: 50px;
     line-height: 50px;
@@ -4708,7 +4706,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ComingSoon-CountUnit,
-.ComingSoon-CountUnit {
+.ComingSoon-CountUnit {
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -4727,7 +4725,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ComingSoon-NotifyMe,
-.ComingSoon-NotifyMe {
+.ComingSoon-NotifyMe {
     color: rgba(164, 157, 143, 1.00);
     font-size: 27px;
     line-height: 35px;
@@ -4771,7 +4769,7 @@ tp-caption.Team-Thumb,
 }
 
 #mc_embed_signup input#mc-embedded-subscribe,
-#mc_embed_signup input#mc-embedded-subscribe:focus {
+#mc_embed_signup input#mc-embedded-subscribe:focus {
     font-family: "Lato", sans-serif;
     line-height: 46px;
     letter-spacing: 1px;
@@ -4796,7 +4794,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallTitle,
-.Agency-SmallTitle {
+.Agency-SmallTitle {
     color: rgba(255, 255, 255, 1.00);
     font-size: 15px;
     line-height: 22px;
@@ -4816,7 +4814,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallContent,
-.Agency-SmallContent {
+.Agency-SmallContent {
     color: rgba(255, 255, 255, 1.00);
     font-size: 15px;
     line-height: 24px;
@@ -4835,7 +4833,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLink,
-.Agency-SmallLink {
+.Agency-SmallLink {
     color: rgba(248, 124, 9, 1.00);
     font-size: 12px;
     line-height: 22px;
@@ -4856,7 +4854,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLink:hover,
-.Agency-SmallLink:hover {
+.Agency-SmallLink:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4868,7 +4866,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-NavButton,
-.Agency-NavButton {
+.Agency-NavButton {
     color: rgba(51, 51, 51, 1.00);
     font-size: 17px;
     line-height: 50px;
@@ -4887,7 +4885,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-NavButton:hover,
-.Agency-NavButton:hover {
+.Agency-NavButton:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(51, 51, 51, 1.00);
@@ -4899,7 +4897,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLinkGreen,
-.Agency-SmallLinkGreen {
+.Agency-SmallLinkGreen {
     color: rgba(109, 177, 155, 1.00);
     font-size: 12px;
     line-height: 22px;
@@ -4920,7 +4918,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLinkGreen:hover,
-.Agency-SmallLinkGreen:hover {
+.Agency-SmallLinkGreen:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4932,7 +4930,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLinkBlue,
-.Agency-SmallLinkBlue {
+.Agency-SmallLinkBlue {
     color: rgba(153, 153, 153, 1.00);
     font-size: 12px;
     line-height: 22px;
@@ -4953,7 +4951,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallLinkBlue:hover,
-.Agency-SmallLinkBlue:hover {
+.Agency-SmallLinkBlue:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -4965,7 +4963,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-LogoText,
-.Agency-LogoText {
+.Agency-LogoText {
     color: rgba(255, 255, 255, 1.00);
     font-size: 12px;
     line-height: 20px;
@@ -4985,7 +4983,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-ArrowTooltip,
-.Agency-ArrowTooltip {
+.Agency-ArrowTooltip {
     color: rgba(51, 51, 51, 1.00);
     font-size: 15px;
     line-height: 20px;
@@ -5004,7 +5002,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallSocial,
-.Agency-SmallSocial {
+.Agency-SmallSocial {
     color: rgba(255, 255, 255, 1.00);
     font-size: 30px;
     line-height: 30px;
@@ -5023,7 +5021,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Agency-SmallSocial:hover,
-.Agency-SmallSocial:hover {
+.Agency-SmallSocial:hover {
     color: rgba(51, 51, 51, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5035,7 +5033,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+.tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -5045,7 +5043,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.CreativeFrontPage-Btn,
-.CreativeFrontPage-Btn {
+.CreativeFrontPage-Btn {
     color: rgba(255, 255, 255, 1.00);
     font-size: 14px;
     line-height: 60px;
@@ -5064,7 +5062,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.CreativeFrontPage-Btn:hover,
-.CreativeFrontPage-Btn:hover {
+.CreativeFrontPage-Btn:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.25);
@@ -5076,7 +5074,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.CreativeFrontPage-Menu,
-.CreativeFrontPage-Menu {
+.CreativeFrontPage-Menu {
     color: rgba(255, 255, 255, 1.00);
     font-size: 14px;
     line-height: 14px;
@@ -5099,7 +5097,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+.tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -5109,7 +5107,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullScreenMenu-Category,
-.FullScreenMenu-Category {
+.FullScreenMenu-Category {
     color: rgba(17, 17, 17, 1.00);
     font-size: 20px;
     line-height: 20px;
@@ -5128,7 +5126,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullScreenMenu-Title,
-.FullScreenMenu-Title {
+.FullScreenMenu-Title {
     color: rgba(255, 255, 255, 1.00);
     font-size: 65px;
     line-height: 70px;
@@ -5146,7 +5144,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+.tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -5156,7 +5154,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.TechJournal-Button,
-.TechJournal-Button {
+.TechJournal-Button {
     color: rgba(255, 255, 255, 1.00);
     font-size: 13px;
     line-height: 40px;
@@ -5175,7 +5173,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.TechJournal-Button:hover,
-.TechJournal-Button:hover {
+.TechJournal-Button:hover {
     color: rgba(0, 0, 0, 1.00);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1.00);
@@ -5187,7 +5185,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.TechJournal-Big,
-.TechJournal-Big {
+.TechJournal-Big {
     color: rgba(255, 255, 255, 1.00);
     font-size: 120px;
     line-height: 120px;
@@ -5218,7 +5216,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+    .tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -5236,7 +5234,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Title,
-.FullSiteBlock-Title {
+    .FullSiteBlock-Title {
     color: rgba(51, 51, 51, 1.00);
     font-size: 55px;
     line-height: 65px;
@@ -5255,7 +5253,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5274,7 +5272,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link,
-.FullSiteBlock-Link {
+    .FullSiteBlock-Link {
     color: rgba(0, 150, 255, 1.00);
     font-size: 25px;
     line-height: 24px;
@@ -5293,7 +5291,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link:hover,
-.FullSiteBlock-Link:hover {
+    .FullSiteBlock-Link:hover {
     color: rgba(51, 51, 51, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5305,7 +5303,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton,
-.FullSiteBlock-DownButton {
+    .FullSiteBlock-DownButton {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 32px;
@@ -5324,7 +5322,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton:hover,
-.FullSiteBlock-DownButton:hover {
+    .FullSiteBlock-DownButton:hover {
     color: rgba(0, 150, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5336,7 +5334,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Title,
-.FullSiteBlock-Title {
+    .FullSiteBlock-Title {
     color: rgba(51, 51, 51, 1.00);
     font-size: 55px;
     line-height: 65px;
@@ -5355,7 +5353,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5374,7 +5372,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link,
-.FullSiteBlock-Link {
+    .FullSiteBlock-Link {
     color: rgba(0, 150, 255, 1.00);
     font-size: 25px;
     line-height: 24px;
@@ -5393,7 +5391,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link:hover,
-.FullSiteBlock-Link:hover {
+    .FullSiteBlock-Link:hover {
     color: rgba(51, 51, 51, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5405,7 +5403,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton,
-.FullSiteBlock-DownButton {
+    .FullSiteBlock-DownButton {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 32px;
@@ -5424,7 +5422,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton:hover,
-.FullSiteBlock-DownButton:hover {
+    .FullSiteBlock-DownButton:hover {
     color: rgba(0, 150, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5436,7 +5434,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Title,
-.FullSiteBlock-Title {
+    .FullSiteBlock-Title {
     color: rgba(51, 51, 51, 1.00);
     font-size: 55px;
     line-height: 65px;
@@ -5455,7 +5453,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5474,7 +5472,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton,
-.FullSiteBlock-DownButton {
+    .FullSiteBlock-DownButton {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 32px;
@@ -5493,7 +5491,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton:hover,
-.FullSiteBlock-DownButton:hover {
+    .FullSiteBlock-DownButton:hover {
     color: rgba(0, 150, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5505,7 +5503,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Title,
-.FullSiteBlock-Title {
+    .FullSiteBlock-Title {
     color: rgba(51, 51, 51, 1.00);
     font-size: 55px;
     line-height: 65px;
@@ -5524,7 +5522,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5543,7 +5541,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link,
-.FullSiteBlock-Link {
+    .FullSiteBlock-Link {
     color: rgba(0, 150, 255, 1.00);
     font-size: 25px;
     line-height: 24px;
@@ -5562,7 +5560,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link:hover,
-.FullSiteBlock-Link:hover {
+    .FullSiteBlock-Link:hover {
     color: rgba(51, 51, 51, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5574,7 +5572,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton,
-.FullSiteBlock-DownButton {
+    .FullSiteBlock-DownButton {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 32px;
@@ -5593,7 +5591,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-DownButton:hover,
-.FullSiteBlock-DownButton:hover {
+    .FullSiteBlock-DownButton:hover {
     color: rgba(0, 150, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5644,7 +5642,7 @@ tp-caption.Team-Thumb,
 }
 
 .gyges .tp-thumb:hover .tp-thumb-img-wrap,
-.gyges .tp-thumb.selected .tp-thumb-img-wrap {
+    .gyges .tp-thumb.selected .tp-thumb-img-wrap {
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
@@ -5654,7 +5652,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Title,
-.FullSiteBlock-Title {
+    .FullSiteBlock-Title {
     color: rgba(51, 51, 51, 1.00);
     font-size: 55px;
     line-height: 65px;
@@ -5673,7 +5671,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5692,7 +5690,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link,
-.FullSiteBlock-Link {
+    .FullSiteBlock-Link {
     color: rgba(0, 150, 255, 1.00);
     font-size: 25px;
     line-height: 24px;
@@ -5711,7 +5709,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-Link:hover,
-.FullSiteBlock-Link:hover {
+    .FullSiteBlock-Link:hover {
     color: rgba(51, 51, 51, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5723,7 +5721,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5742,7 +5740,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5761,7 +5759,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-FooterLink,
-.FullSiteBlock-FooterLink {
+    .FullSiteBlock-FooterLink {
     color: rgba(85, 85, 85, 1.00);
     font-size: 15px;
     line-height: 20px;
@@ -5780,7 +5778,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-FooterLink:hover,
-.FullSiteBlock-FooterLink:hover {
+    .FullSiteBlock-FooterLink:hover {
     color: rgba(0, 150, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5800,7 +5798,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.Twitter-Content a,
-.tp-caption.Twitter-Content a:visited {
+    .tp-caption.Twitter-Content a:visited {
     color: #0084B4 !important;
 }
 
@@ -5872,7 +5870,7 @@ tp-caption.Team-Thumb,
 }
 
 #mc_embed_signup input#mc-embedded-subscribe,
-#mc_embed_signup input#mc-embedded-subscribe:focus {
+    #mc_embed_signup input#mc-embedded-subscribe:focus {
     font-family: "Lato", sans-serif;
     line-height: 46px;
     font-size: 16px;
@@ -5923,7 +5921,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.FullSiteBlock-SubTitle,
-.FullSiteBlock-SubTitle {
+    .FullSiteBlock-SubTitle {
     color: rgba(51, 51, 51, 1.00);
     font-size: 25px;
     line-height: 34px;
@@ -5942,7 +5940,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ParallaxWebsite-FooterItem,
-.ParallaxWebsite-FooterItem {
+    .ParallaxWebsite-FooterItem {
     color: rgba(255, 255, 255, 0.50);
     font-size: 16px;
     line-height: 24px;
@@ -5960,7 +5958,7 @@ tp-caption.Team-Thumb,
 }
 
 .tp-caption.ParallaxWebsite-FooterItem:hover,
-.ParallaxWebsite-FooterItem:hover {
+    .ParallaxWebsite-FooterItem:hover {
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none;
     background-color: transparent;
@@ -5984,7 +5982,7 @@ iframe.twitter-share-button {
 }
 
 .tp-caption.FullSiteBlock-Link,
-.FullSiteBlock-Link {
+    .FullSiteBlock-Link {
     color: rgba(0,150,255,1.00);
     font-size: 25px;
     line-height: 24px;
